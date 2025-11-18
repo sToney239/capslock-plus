@@ -60,7 +60,7 @@ allowRunOnClipboardChange:=true
 #Include lib_mouseSpeed.ahk
 #Include lib_mathBoard.ahk
 #include lib_loadAnimation.ahk
-
+#include simpleNumber.ahk
 
 ;change dir
 #include ..\userAHK
@@ -73,7 +73,6 @@ Process Priority,,High
 
 
 start:
-
 ;-----------------START-----------------
 global ctrlZ, CapsLock2, CapsLock
 
@@ -815,8 +814,6 @@ return
 ;      Capslock2:=""
 ;  return
 
-
-
 #If
 
 
@@ -825,4 +822,5 @@ return
 GuiClose:
 GuiEscape:
 Gui, Cancel
+
 return
