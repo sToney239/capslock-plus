@@ -18,7 +18,7 @@ RAlt & m::Send `%
 RAlt & ,::Send, <
 RAlt & .::Send, >
 RAlt & Y::Send, #
-RAlt & U::Send, ^
+RAlt & U::Send, {^}
 RAlt & I::Send, $
 RAlt & O::Send, @
 RAlt & P::Send, &
@@ -34,3 +34,4 @@ RWin & f::Send, "
 ;RWin & m::Send, ^
 RWin & <::Send {{}
 RWin & >::Send {}}
+RWin::Send return
