@@ -207,7 +207,7 @@ keyFunc_deleteToPageEnd(){
 }
 
 keyFunc_enterWherever(){
-    SendInput,{End}+{Enter}
+    SendInput,{Home}+{Enter}{Up}
     Return
 }
 
@@ -319,8 +319,14 @@ keyFunc_switchClipboard(){
     }
     return
 }
-
-
+keyFunc_cutSystem(){
+  SendInput, ^{x}
+  return
+}
+keyFunc_copySystem(){
+  SendInput, ^{c}
+  return
+}
 keyFunc_pasteSystem(){
     global
 
