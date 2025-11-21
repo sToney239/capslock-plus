@@ -60,7 +60,7 @@ allowRunOnClipboardChange:=true
 #Include lib_mouseSpeed.ahk
 #Include lib_mathBoard.ahk
 #include lib_loadAnimation.ahk
-#include simpleNumber.ahk
+#include stoney_functions.ahk
 
 ;change dir
 #include ..\userAHK

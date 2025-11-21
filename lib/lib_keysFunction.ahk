@@ -207,7 +207,7 @@ keyFunc_deleteToPageEnd(){
 }
 
 keyFunc_enterWherever(){
-    SendInput,{Home}+{Enter}{Up}
+    SendInput,{End}+{Enter}
     Return
 }
 
