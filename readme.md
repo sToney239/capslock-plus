@@ -1,9 +1,7 @@
-English | [中文](README_zh-CN.md)
-
----
-
+This is a modified version of [Capslock+](https://github.com/wo52616111/capslock-plus)
 
 ## How to run the source code?
+
 1. Download and install [AutoHotkey (v1.1.+)](http://www.ahkscript.org/)
 2. Run `Capslock+.ahk`
 
